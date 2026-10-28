@@ -1,0 +1,15 @@
+BOI PREMIUM — SITE PRONTO PARA COLOCAR NO AR
+Atualizado em 28/10/2026
+
+Esta pasta é a versão final do site, mais leve para abrir rápido no celular
+(15 MB em vez de 28 MB). Mantenha todos os arquivos juntos do index.html.
+
+O QUE JÁ ESTÁ FEITO
+- Fotos e vídeos otimizados para abrir mais rápido.
+- A área "Seja um empreendedor" (preços especiais para churrasqueiros) foi
+  criada e depois retirada a pedido do Rafael em 28/10/2026. O site está
+  igual ao original.
+- Bonequinho do WhatsApp mantido como estava (decisão do Rafael).
+
+PRÓXIMO PASSO
+- Colocar o site no ar com um endereço para os clientes acessarem.
