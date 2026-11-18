@@ -1,0 +1,82 @@
+id,produto,categoria,unidade,preco_reais,origem
+BP-001,Picanha,bovinos,kg,119.90,PDF_29-10-2026
+BP-002,Bife de chorizo,bovinos,kg,89.90,PDF_29-10-2026
+BP-003,Bife ancho,bovinos,kg,89.90,PDF_29-10-2026
+BP-004,Contrafilé,bovinos,kg,79.90,PDF_29-10-2026
+BP-005,Filé-mignon,bovinos,kg,119.90,PDF_29-10-2026
+BP-006,Miolo da alcatra,bovinos,kg,79.90,PDF_29-10-2026
+BP-007,Maminha,bovinos,kg,69.90,PDF_29-10-2026
+BP-008,Fraldinha,bovinos,kg,69.90,PDF_29-10-2026
+BP-009,Assado de tira,bovinos,kg,59.90,PDF_29-10-2026
+BP-010,Costela bovina,bovinos,kg,39.90,PDF_29-10-2026
+BP-011,Cupim,bovinos,kg,49.90,PDF_29-10-2026
+BP-012,Patinho,bovinos,kg,54.90,PDF_29-10-2026
+BP-013,Coxão mole,bovinos,kg,56.90,PDF_29-10-2026
+BP-014,Coxão duro,bovinos,kg,54.90,PDF_29-10-2026
+BP-015,Lagarto,bovinos,kg,52.90,PDF_29-10-2026
+BP-016,Acém,bovinos,kg,43.90,PDF_29-10-2026
+BP-017,Peito bovino,bovinos,kg,39.90,PDF_29-10-2026
+BP-018,Músculo,bovinos,kg,43.90,PDF_29-10-2026
+BP-019,Ossobuco,bovinos,kg,49.90,PDF_29-10-2026
+BP-020,Acém moído,bovinos,kg,43.90,PDF_29-10-2026
+BP-021,Filé de peito de frango,aves,kg,32.90,PDF_29-10-2026
+BP-022,Sassami,aves,kg,29.90,PDF_29-10-2026
+BP-023,Peito com osso,aves,kg,22.90,PDF_29-10-2026
+BP-024,Coxa e sobrecoxa,aves,kg,18.90,PDF_29-10-2026
+BP-025,Sobrecoxa desossada,aves,kg,29.90,PDF_29-10-2026
+BP-026,Coxinha da asa,aves,kg,29.90,PDF_29-10-2026
+BP-027,Tulipa - meio da asa,aves,kg,39.90,PDF_29-10-2026
+BP-028,Asa inteira,aves,kg,29.90,PDF_29-10-2026
+BP-029,Frango inteiro,aves,kg,12.90,PDF_29-10-2026
+BP-030,Frango a passarinho,aves,kg,19.90,PDF_29-10-2026
+BP-031,Frango caipira,aves,kg,24.90,PDF_29-10-2026
+BP-032,Coração de frango,aves,kg,39.90,PDF_29-10-2026
+BP-033,Moela de frango,aves,kg,19.90,PDF_29-10-2026
+BP-034,Fígado de frango,aves,kg,14.90,PDF_29-10-2026
+BP-035,Pés de frango,aves,kg,14.90,PDF_29-10-2026
+BP-036,Picanha suína,suinos,kg,49.90,PDF_29-10-2026
+BP-037,Filé-mignon suíno,suinos,kg,49.90,PDF_29-10-2026
+BP-038,Lombo suíno,suinos,kg,49.90,PDF_29-10-2026
+BP-039,Copa-lombo,suinos,kg,29.90,PDF_29-10-2026
+BP-040,Bisteca suína,suinos,kg,29.90,PDF_29-10-2026
+BP-041,Costelinha suína,suinos,kg,36.90,PDF_29-10-2026
+BP-042,Panceta,suinos,kg,39.90,PDF_29-10-2026
+BP-043,Barriga suína,suinos,kg,39.90,PDF_29-10-2026
+BP-044,Pernil com osso,suinos,kg,29.90,PDF_29-10-2026
+BP-045,Pernil sem osso,suinos,kg,39.90,PDF_29-10-2026
+BP-046,Paleta suína,suinos,kg,29.90,PDF_29-10-2026
+BP-047,Joelho suíno,suinos,kg,29.90,PDF_29-10-2026
+BP-048,Papada suína,suinos,kg,29.90,PDF_29-10-2026
+BP-049,Pé suíno,suinos,kg,14.90,PDF_29-10-2026
+BP-050,Orelha suína,suinos,kg,14.90,PDF_29-10-2026
+BP-051,Rabo suíno,suinos,kg,24.90,PDF_29-10-2026
+BP-052,Carré de cordeiro,especiais,kg,109.90,PDF_29-10-2026
+BP-053,Pernil de cordeiro,especiais,kg,109.90,PDF_29-10-2026
+BP-054,Paleta de cordeiro,especiais,kg,99.90,PDF_29-10-2026
+BP-055,Costela de cordeiro,especiais,kg,79.90,PDF_29-10-2026
+BP-056,Picanha de búfalo,especiais,kg,149.90,PDF_29-10-2026
+BP-057,Lombo de jacaré,especiais,kg,219.90,PDF_29-10-2026
+BP-058,Coelho inteiro,especiais,kg,99.90,PDF_29-10-2026
+BP-059,Codorna,especiais,kg,69.90,PDF_29-10-2026
+BP-060,Fígado bovino,miudos,kg,22.90,PDF_29-10-2026
+BP-061,Língua bovina,miudos,kg,39.90,PDF_29-10-2026
+BP-062,Bucho - dobradinha,miudos,kg,36.90,PDF_29-10-2026
+BP-063,Mocotó,miudos,kg,19.90,PDF_29-10-2026
+BP-064,Rabada,miudos,kg,59.90,PDF_29-10-2026
+BP-065,Coração bovino,miudos,kg,39.90,PDF_29-10-2026
+BP-066,Rim bovino,miudos,kg,39.90,PDF_29-10-2026
+BP-067,Passarinha - baço bovino,miudos,kg,39.90,PDF_29-10-2026
+BP-068,Bofe bovino,miudos,kg,39.90,PDF_29-10-2026
+BP-069,Testículo bovino,miudos,kg,39.90,PDF_29-10-2026
+BP-070,Buchada de bode,miudos,kg,79.90,confirmacao_usuario_2026-11-17
+BP-071,Tripa de porco,miudos,kg,39.90,PDF_29-10-2026
+BP-072,Tripa de boi,miudos,kg,39.90,PDF_29-10-2026
+BP-073,Kit Picanha,kits,kit,199.90,PDF_29-10-2026
+BP-074,Kit Chorizo,kits,kit,149.90,PDF_29-10-2026
+BP-075,Kit Fraldinha,kits,kit,129.90,confirmacao_usuario_2026-11-17
+BP-076,Kit Família,kits,kit,199.90,PDF_29-10-2026
+BP-077,Kit Fitness,kits,kit,149.90,PDF_29-10-2026
+BP-078,Kit Casal,kits,kit,99.90,PDF_29-10-2026
+BP-079,Kit Feijoada,kits,kit,99.90,PDF_29-10-2026
+BP-080,Kit Tacho,kits,kit,119.90,PDF_29-10-2026
+BP-081,Kit do Mês,kits,kit,299.90,PDF_29-10-2026

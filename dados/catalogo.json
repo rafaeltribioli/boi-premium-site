@@ -1,0 +1,3422 @@
+{
+ "fonte": "Tabela enviada pelo proprietário; Kit Fraldinha e Buchada confirmados em 17/11/2026",
+ "data_base_pdf": "2026-10-29",
+ "data_confirmacao_parcial": "2026-11-17",
+ "precos_confirmados_proprietario": {
+  "BP-075": 12990,
+  "BP-070": 7990
+ },
+ "gerado_por": "scripts/gerar-catalogo.mjs",
+ "observacao": "Preços por kg (exceto kits). Estoque não integrado: tudo sujeito à confirmação da equipe. Não há carvão nem pão de alho avulsos cadastrados.",
+ "parametros": {
+  "churrasco": {
+   "adulto_g": 400,
+   "crianca_g": 200,
+   "fator_apetite": {
+    "leve": 0.85,
+    "normal": 1,
+    "alto": 1.2
+   },
+   "fator_sem_acompanhamentos": 1.15,
+   "fator_longa_duracao": 1.1,
+   "longa_duracao_horas": 5
+  },
+  "semana": {
+   "adulto_refeicao_g": 150,
+   "crianca_refeicao_g": 75
+  },
+  "incremento_padrao_g": 100,
+  "minimo_por_item_g": 300,
+  "whatsapp": "5519993497099",
+  "atendimento": "08h às 19h"
+ },
+ "produtos": [
+  {
+   "id": "BP-001",
+   "nome": "Picanha",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 11990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-002",
+   "nome": "Bife de chorizo",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 8990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-003",
+   "nome": "Bife ancho",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 8990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-004",
+   "nome": "Contrafilé",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 7990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "bife",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-005",
+   "nome": "Filé-mignon",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 11990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "bife",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-006",
+   "nome": "Miolo da alcatra",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 7990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "bife",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-007",
+   "nome": "Maminha",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 6990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-008",
+   "nome": "Fraldinha",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 6990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-009",
+   "nome": "Assado de tira",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 5990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "churrasco"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-010",
+   "nome": "Costela bovina",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "churrasco",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-011",
+   "nome": "Cupim",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 4990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-012",
+   "nome": "Patinho",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 5490,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "bife",
+    "panela",
+    "moida"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-013",
+   "nome": "Coxão mole",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 5690,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "bife",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-014",
+   "nome": "Coxão duro",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 5490,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-015",
+   "nome": "Lagarto",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 5290,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "assado",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-016",
+   "nome": "Acém",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 4390,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-017",
+   "nome": "Peito bovino",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-018",
+   "nome": "Músculo",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 4390,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-019",
+   "nome": "Ossobuco",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 4990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-020",
+   "nome": "Acém moído",
+   "categoria": "bovinos",
+   "unidade": "kg",
+   "preco_centavos": 4390,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "moida",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-021",
+   "nome": "Filé de peito de frango",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 3290,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "bife",
+    "grelha",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-022",
+   "nome": "Sassami",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "bife",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-023",
+   "nome": "Peito com osso",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 2290,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "assado",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-024",
+   "nome": "Coxa e sobrecoxa",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 1890,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "churrasco",
+    "assado",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-025",
+   "nome": "Sobrecoxa desossada",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "grelha",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-026",
+   "nome": "Coxinha da asa",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "churrasco",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-027",
+   "nome": "Tulipa - meio da asa",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "churrasco",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-028",
+   "nome": "Asa inteira",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "churrasco",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-029",
+   "nome": "Frango inteiro",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 1290,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "assado",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-030",
+   "nome": "Frango a passarinho",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 1990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "frito",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-031",
+   "nome": "Frango caipira",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 2490,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-032",
+   "nome": "Coração de frango",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-033",
+   "nome": "Moela de frango",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 1990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-034",
+   "nome": "Fígado de frango",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 1490,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-035",
+   "nome": "Pés de frango",
+   "categoria": "aves",
+   "unidade": "kg",
+   "preco_centavos": 1490,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "frango",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-036",
+   "nome": "Picanha suína",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 4990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-037",
+   "nome": "Filé-mignon suíno",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 4990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "grelha",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-038",
+   "nome": "Lombo suíno",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 4990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "bife",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-039",
+   "nome": "Copa-lombo",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-040",
+   "nome": "Bisteca suína",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "sim",
+   "preparo": [
+    "bife",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-041",
+   "nome": "Costelinha suína",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 3690,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "sim",
+   "preparo": [
+    "churrasco",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-042",
+   "nome": "Panceta",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "churrasco"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-043",
+   "nome": "Barriga suína",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-044",
+   "nome": "Pernil com osso",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "sim",
+   "preparo": [
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-045",
+   "nome": "Pernil sem osso",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "assado",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-046",
+   "nome": "Paleta suína",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "desconhecido",
+   "preparo": [
+    "assado",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-047",
+   "nome": "Joelho suíno",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "sim",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-048",
+   "nome": "Papada suína",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 2990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-049",
+   "nome": "Pé suíno",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 1490,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "sim",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-050",
+   "nome": "Orelha suína",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 1490,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-051",
+   "nome": "Rabo suíno",
+   "categoria": "suinos",
+   "unidade": "kg",
+   "preco_centavos": 2490,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "sim",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-052",
+   "nome": "Carré de cordeiro",
+   "categoria": "especiais",
+   "unidade": "kg",
+   "preco_centavos": 10990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "cordeiro",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "churrasco",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-053",
+   "nome": "Pernil de cordeiro",
+   "categoria": "especiais",
+   "unidade": "kg",
+   "preco_centavos": 10990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "cordeiro",
+   "contem_suino": "nao",
+   "osso": "desconhecido",
+   "preparo": [
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-054",
+   "nome": "Paleta de cordeiro",
+   "categoria": "especiais",
+   "unidade": "kg",
+   "preco_centavos": 9990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "cordeiro",
+   "contem_suino": "nao",
+   "osso": "desconhecido",
+   "preparo": [
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-055",
+   "nome": "Costela de cordeiro",
+   "categoria": "especiais",
+   "unidade": "kg",
+   "preco_centavos": 7990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "cordeiro",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "churrasco",
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-056",
+   "nome": "Picanha de búfalo",
+   "categoria": "especiais",
+   "unidade": "kg",
+   "preco_centavos": 14990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bufalo",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-057",
+   "nome": "Lombo de jacaré",
+   "categoria": "especiais",
+   "unidade": "kg",
+   "preco_centavos": 21990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "exotico",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "grelha"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-058",
+   "nome": "Coelho inteiro",
+   "categoria": "especiais",
+   "unidade": "kg",
+   "preco_centavos": 9990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "exotico",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "assado",
+    "panela"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-059",
+   "nome": "Codorna",
+   "categoria": "especiais",
+   "unidade": "kg",
+   "preco_centavos": 6990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "ave_especial",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "assado"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-060",
+   "nome": "Fígado bovino",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 2290,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "bife",
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-061",
+   "nome": "Língua bovina",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-062",
+   "nome": "Bucho - dobradinha",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 3690,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-063",
+   "nome": "Mocotó",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 1990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-064",
+   "nome": "Rabada",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 5990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "sim",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-065",
+   "nome": "Coração bovino",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "churrasco",
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-066",
+   "nome": "Rim bovino",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-067",
+   "nome": "Passarinha - baço bovino",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-068",
+   "nome": "Bofe bovino",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-069",
+   "nome": "Testículo bovino",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "frito",
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-070",
+   "nome": "Buchada de bode",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 7990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "confirmacao_usuario_2026-11-17",
+   "proteina": "caprino",
+   "contem_suino": "desconhecido",
+   "osso": "desconhecido",
+   "preparo": [
+    "panela"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": false,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-071",
+   "nome": "Tripa de porco",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "suino",
+   "contem_suino": "sim",
+   "osso": "nao",
+   "preparo": [
+    "frito"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-072",
+   "nome": "Tripa de boi",
+   "categoria": "miudos",
+   "unidade": "kg",
+   "preco_centavos": 3990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": null,
+   "origem": "PDF_29-10-2026",
+   "proteina": "bovino",
+   "contem_suino": "nao",
+   "osso": "nao",
+   "preparo": [
+    "frito"
+   ],
+   "miudo": true,
+   "ingredientes_conhecidos": true,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-073",
+   "nome": "Kit Picanha",
+   "categoria": "kits",
+   "unidade": "kit",
+   "preco_centavos": 19990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": "importada_do_site_validada",
+   "origem": "PDF_29-10-2026",
+   "nome_site": "Kit Picanha",
+   "aliases": [],
+   "ancora_site": "kit-picanha",
+   "linha": "churrasco",
+   "proteina": "kit_misto",
+   "contem_suino": "sim",
+   "osso": "parcial",
+   "ingredientes_conhecidos": false,
+   "preparo": [
+    "churrasco"
+   ],
+   "composicao_origem": "index.html (campanha novembro/2026), conferida em 17/11/2026",
+   "composicao": [
+    {
+     "nome": "linguiça toscana",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "coxinha da asa",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": "BP-026",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "panceta",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": "BP-042",
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "picanha premium",
+     "gramas": 800,
+     "unidades": null,
+     "produto_id": "BP-001",
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "kafta gourmet",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "pão de alho",
+     "gramas": null,
+     "unidades": 1,
+     "produto_id": null,
+     "proteina": "complemento",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": false
+    }
+   ],
+   "total_declarado_g": 2400,
+   "soma_componentes_g": 2400,
+   "confere_com_total_declarado": true,
+   "carne_sem_osso_g": 2000,
+   "carne_com_osso_ou_indefinido_g": 400,
+   "itens_sem_peso": [],
+   "pao_de_alho_incluso_pct": 1,
+   "incremento": 1,
+   "minimo": 1,
+   "trocas_permitidas": false,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-074",
+   "nome": "Kit Chorizo",
+   "categoria": "kits",
+   "unidade": "kit",
+   "preco_centavos": 14990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": "importada_do_site_validada",
+   "origem": "PDF_29-10-2026",
+   "nome_site": "Kit Chorizo",
+   "aliases": [],
+   "ancora_site": "kit-chorizo",
+   "linha": "churrasco",
+   "proteina": "kit_misto",
+   "contem_suino": "sim",
+   "osso": "parcial",
+   "ingredientes_conhecidos": false,
+   "preparo": [
+    "churrasco"
+   ],
+   "composicao_origem": "index.html (campanha novembro/2026), conferida em 17/11/2026",
+   "composicao": [
+    {
+     "nome": "linguiça toscana",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "coxinha da asa",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": "BP-026",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "panceta",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": "BP-042",
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "chorizo premium",
+     "gramas": 800,
+     "unidades": null,
+     "produto_id": "BP-002",
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "kafta gourmet",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "pão de alho",
+     "gramas": null,
+     "unidades": 1,
+     "produto_id": null,
+     "proteina": "complemento",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": false
+    }
+   ],
+   "total_declarado_g": 2400,
+   "soma_componentes_g": 2400,
+   "confere_com_total_declarado": true,
+   "carne_sem_osso_g": 2000,
+   "carne_com_osso_ou_indefinido_g": 400,
+   "itens_sem_peso": [],
+   "pao_de_alho_incluso_pct": 1,
+   "incremento": 1,
+   "minimo": 1,
+   "trocas_permitidas": false,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-075",
+   "nome": "Kit Fraldinha",
+   "categoria": "kits",
+   "unidade": "kit",
+   "preco_centavos": 12990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": "importada_do_site_validada",
+   "origem": "confirmacao_usuario_2026-11-17",
+   "nome_site": "Kit Fraldinha",
+   "aliases": [],
+   "ancora_site": "kit-fraldinha",
+   "linha": "churrasco",
+   "proteina": "kit_misto",
+   "contem_suino": "sim",
+   "osso": "parcial",
+   "ingredientes_conhecidos": false,
+   "preparo": [
+    "churrasco"
+   ],
+   "composicao_origem": "index.html (campanha novembro/2026), conferida em 17/11/2026",
+   "composicao": [
+    {
+     "nome": "linguiça toscana",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "coxinha da asa",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": "BP-026",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "panceta",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": "BP-042",
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "fraldinha premium",
+     "gramas": 800,
+     "unidades": null,
+     "produto_id": "BP-008",
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "kafta gourmet",
+     "gramas": 400,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "pão de alho",
+     "gramas": null,
+     "unidades": 1,
+     "produto_id": null,
+     "proteina": "complemento",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": false
+    }
+   ],
+   "total_declarado_g": 2400,
+   "soma_componentes_g": 2400,
+   "confere_com_total_declarado": true,
+   "carne_sem_osso_g": 2000,
+   "carne_com_osso_ou_indefinido_g": 400,
+   "itens_sem_peso": [],
+   "pao_de_alho_incluso_pct": 1,
+   "incremento": 1,
+   "minimo": 1,
+   "trocas_permitidas": false,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-076",
+   "nome": "Kit Família",
+   "categoria": "kits",
+   "unidade": "kit",
+   "preco_centavos": 19990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": "importada_do_site_validada",
+   "origem": "PDF_29-10-2026",
+   "nome_site": "Kit Família",
+   "aliases": [],
+   "ancora_site": "kit-familia",
+   "linha": "casa",
+   "proteina": "kit_misto",
+   "contem_suino": "sim",
+   "osso": "parcial",
+   "ingredientes_conhecidos": false,
+   "preparo": [
+    "casa"
+   ],
+   "composicao_origem": "index.html (campanha novembro/2026), conferida em 17/11/2026",
+   "composicao": [
+    {
+     "nome": "ponta de alcatra em iscas",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "salsicha",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "frango a passarinho",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-030",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "bife de pernil suíno",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "contrafilé em bifes",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-004",
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "lombo suíno em iscas",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "filé de coxa",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "linguiça",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "coxinha da asa",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-026",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "bisteca de porco",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-040",
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "filé de frango em bifes",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "pernil em cubos sem osso",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-045",
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "patinho moído",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "calabresa",
+     "gramas": null,
+     "unidades": 1,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    }
+   ],
+   "total_declarado_g": 6500,
+   "soma_componentes_g": 6500,
+   "confere_com_total_declarado": true,
+   "carne_sem_osso_g": 5000,
+   "carne_com_osso_ou_indefinido_g": 1500,
+   "itens_sem_peso": [
+    "1 un. calabresa"
+   ],
+   "pao_de_alho_incluso_pct": 0,
+   "incremento": 1,
+   "minimo": 1,
+   "trocas_permitidas": false,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-077",
+   "nome": "Kit Fitness",
+   "categoria": "kits",
+   "unidade": "kit",
+   "preco_centavos": 14990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": "importada_do_site_validada",
+   "origem": "PDF_29-10-2026",
+   "nome_site": "Kit Fitness",
+   "aliases": [],
+   "ancora_site": "kit-fitness",
+   "linha": "casa",
+   "proteina": "kit_misto",
+   "contem_suino": "sim",
+   "osso": "parcial",
+   "ingredientes_conhecidos": false,
+   "preparo": [
+    "casa"
+   ],
+   "composicao_origem": "index.html (campanha novembro/2026), conferida em 17/11/2026",
+   "composicao": [
+    {
+     "nome": "patinho moído",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "patinho em iscas",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "lombo em bistecas",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "filé de pernil em bifes",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "lombo suíno em cubos",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "sobrecoxa",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "desconhecido",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "filé de frango em bifes",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "coxa e sobrecoxa",
+     "gramas": 1000,
+     "unidades": null,
+     "produto_id": "BP-024",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    }
+   ],
+   "total_declarado_g": 4500,
+   "soma_componentes_g": 4500,
+   "confere_com_total_declarado": true,
+   "carne_sem_osso_g": 2500,
+   "carne_com_osso_ou_indefinido_g": 2000,
+   "itens_sem_peso": [],
+   "pao_de_alho_incluso_pct": 0,
+   "incremento": 1,
+   "minimo": 1,
+   "trocas_permitidas": false,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-078",
+   "nome": "Kit Casal",
+   "categoria": "kits",
+   "unidade": "kit",
+   "preco_centavos": 9990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": "importada_do_site_validada",
+   "origem": "PDF_29-10-2026",
+   "nome_site": "Kit Casal",
+   "aliases": [],
+   "ancora_site": "kit-casal",
+   "linha": "casa",
+   "proteina": "kit_misto",
+   "contem_suino": "sim",
+   "osso": "parcial",
+   "ingredientes_conhecidos": false,
+   "preparo": [
+    "casa"
+   ],
+   "composicao_origem": "index.html (campanha novembro/2026), conferida em 17/11/2026",
+   "composicao": [
+    {
+     "nome": "patinho em iscas",
+     "gramas": 1000,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "frango a passarinho",
+     "gramas": 1000,
+     "unidades": null,
+     "produto_id": "BP-030",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "filé de frango",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "pernil picado",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "desconhecido",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "salsicha",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    }
+   ],
+   "total_declarado_g": 3500,
+   "soma_componentes_g": 3500,
+   "confere_com_total_declarado": true,
+   "carne_sem_osso_g": 2000,
+   "carne_com_osso_ou_indefinido_g": 1500,
+   "itens_sem_peso": [],
+   "pao_de_alho_incluso_pct": 0,
+   "incremento": 1,
+   "minimo": 1,
+   "trocas_permitidas": false,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-079",
+   "nome": "Kit Feijoada",
+   "categoria": "kits",
+   "unidade": "kit",
+   "preco_centavos": 9990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": "importada_do_site_validada",
+   "origem": "PDF_29-10-2026",
+   "nome_site": "Kit Feijoada Gourmet Premium",
+   "aliases": [
+    "Kit Feijoada"
+   ],
+   "ancora_site": "kit-feijoada",
+   "linha": "casa",
+   "proteina": "kit_misto",
+   "contem_suino": "sim",
+   "osso": "parcial",
+   "ingredientes_conhecidos": false,
+   "preparo": [
+    "casa"
+   ],
+   "composicao_origem": "index.html (campanha novembro/2026), conferida em 17/11/2026",
+   "composicao": [
+    {
+     "nome": "paio",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "bacon",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "toucinho",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "calabresa",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "costelinha",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "carne seca",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "pé",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "desconhecida",
+     "contem_suino": "desconhecido",
+     "osso": "desconhecido",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "orelha",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "desconhecida",
+     "contem_suino": "desconhecido",
+     "osso": "desconhecido",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "rabo",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "desconhecida",
+     "contem_suino": "desconhecido",
+     "osso": "desconhecido",
+     "conta_como_carne": true
+    }
+   ],
+   "total_declarado_g": 2700,
+   "soma_componentes_g": 2700,
+   "confere_com_total_declarado": true,
+   "carne_sem_osso_g": 1500,
+   "carne_com_osso_ou_indefinido_g": 1200,
+   "itens_sem_peso": [],
+   "pao_de_alho_incluso_pct": 0,
+   "incremento": 1,
+   "minimo": 1,
+   "trocas_permitidas": false,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-080",
+   "nome": "Kit Tacho",
+   "categoria": "kits",
+   "unidade": "kit",
+   "preco_centavos": 11990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": "importada_do_site_validada",
+   "origem": "PDF_29-10-2026",
+   "nome_site": "Kit Tacho Gourmet",
+   "aliases": [
+    "Kit Tacho"
+   ],
+   "ancora_site": "kit-tacho",
+   "linha": "casa",
+   "proteina": "kit_misto",
+   "contem_suino": "sim",
+   "osso": "parcial",
+   "ingredientes_conhecidos": false,
+   "preparo": [
+    "casa"
+   ],
+   "composicao_origem": "index.html (campanha novembro/2026), conferida em 17/11/2026",
+   "composicao": [
+    {
+     "nome": "iscas de fraldinha",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "iscas de filé de frango",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "iscas de filé de coxa",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "bacon cortado",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "calabresa fatiada",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "linguiça",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "iscas de pernil",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "iscas de miolo de acém",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "iscas de panceta",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    }
+   ],
+   "total_declarado_g": 2700,
+   "soma_componentes_g": 2700,
+   "confere_com_total_declarado": true,
+   "carne_sem_osso_g": 2700,
+   "carne_com_osso_ou_indefinido_g": 0,
+   "itens_sem_peso": [],
+   "pao_de_alho_incluso_pct": 0,
+   "incremento": 1,
+   "minimo": 1,
+   "trocas_permitidas": false,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  },
+  {
+   "id": "BP-081",
+   "nome": "Kit do Mês",
+   "categoria": "kits",
+   "unidade": "kit",
+   "preco_centavos": 29990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "composicao_status": "importada_do_site_validada",
+   "origem": "PDF_29-10-2026",
+   "nome_site": "Kit Compra do Mês",
+   "aliases": [
+    "Kit do Mês",
+    "Compra do Mês"
+   ],
+   "ancora_site": "kit-compra-do-mes",
+   "linha": "casa",
+   "proteina": "kit_misto",
+   "contem_suino": "sim",
+   "osso": "parcial",
+   "ingredientes_conhecidos": false,
+   "preparo": [
+    "casa"
+   ],
+   "composicao_origem": "index.html (campanha novembro/2026), conferida em 17/11/2026",
+   "composicao": [
+    {
+     "nome": "coxão mole em iscas",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "asa completa",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-028",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "patinho moído",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "frango a passarinho",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-030",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "coxa e sobrecoxa",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-024",
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "contrafilé em bifes",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-004",
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "pernil em cubos",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "lombo suíno em iscas",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "bisteca suína",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-040",
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "costela para panela",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "sim",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "filé de frango em bifes",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "filé de frango para estrogonofe",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "hambúrguer",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "bife de lombo suíno",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "fígado bovino",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": "BP-060",
+     "proteina": "bovino",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "bacon",
+     "gramas": 300,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "suino",
+     "contem_suino": "sim",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "calabresa",
+     "gramas": null,
+     "unidades": 1,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "batata palito",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "nao_carne",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": false
+    },
+    {
+     "nome": "salsicha",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "embutido_ou_preparado",
+     "contem_suino": "desconhecido",
+     "osso": "nao",
+     "conta_como_carne": true
+    },
+    {
+     "nome": "filé de coxa",
+     "gramas": 500,
+     "unidades": null,
+     "produto_id": null,
+     "proteina": "frango",
+     "contem_suino": "nao",
+     "osso": "nao",
+     "conta_como_carne": true
+    }
+   ],
+   "total_declarado_g": 9300,
+   "soma_componentes_g": 9300,
+   "confere_com_total_declarado": true,
+   "carne_sem_osso_g": 6300,
+   "carne_com_osso_ou_indefinido_g": 2500,
+   "itens_sem_peso": [
+    "1 un. calabresa"
+   ],
+   "pao_de_alho_incluso_pct": 0,
+   "incremento": 1,
+   "minimo": 1,
+   "trocas_permitidas": false,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  }
+ ],
+ "extras_site": [
+  {
+   "id": "SITE-001",
+   "nome": "Hambúrguer Gourmet de Fraldinha",
+   "nome_site": "Hambúrguer Gourmet de Fraldinha",
+   "ancora_site": "hamburguer",
+   "categoria": "preparados_site",
+   "unidade": "kg",
+   "preco_centavos": 5990,
+   "moeda": "BRL",
+   "estoque": "nao_integrado",
+   "ativo": true,
+   "origem": "site_atual_index_html",
+   "proteina": "embutido_ou_preparado",
+   "contem_suino": "desconhecido",
+   "osso": "nao",
+   "preparo": [
+    "grelha",
+    "chapa"
+   ],
+   "miudo": false,
+   "ingredientes_conhecidos": false,
+   "rendimento_sem_osso": null,
+   "incremento_g": 100,
+   "minimo_g": 300,
+   "disponibilidade": {
+    "status": "nao_integrado",
+    "origem": null,
+    "data": null
+   },
+   "validade_oferta": null
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+# Cloudflare Worker do Rafael Virtual (serviço de IA no servidor).
+# O site continua no GitHub Pages; este Worker só responde /api/assistente e /api/saude.
+name = "boi-premium-assistente"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+[vars]
+MODELO_IA = "claude-haiku-5-5"
+ORIGENS_PERMITIDAS = "https://premiumcarnes.com.br,https://www.premiumcarnes.com.br,https://rafaeltribioli.github.io"
+TIMEOUT_MS = "20000"
+MAX_CHAMADAS_MODELO = "6"
+MAX_TOKENS_RESPOSTA = "2048"
+LIMITE_IP_10MIN = "20"
+LIMITE_SESSAO_DIA = "60"
+LIMITE_GLOBAL_DIA = "3000"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+# Segredo (NÃO colocar aqui): ANTHROPIC_API_KEY
+#   npx wrangler secret put ANTHROPIC_API_KEY   (ou pelo painel da Cloudflare, ou pelo GitHub Actions)
