@@ -7,7 +7,7 @@ window.BOI_CONFIG = {
   whatsapp: '5519993497099',
   atendimento: '08h às 19h',
   assistente: {
-    endpoint: '',
+    endpoint: 'https://boi-premium-assistente.rafaeltribioli.workers.dev',
     timeoutMs: 22000
   }
 };
