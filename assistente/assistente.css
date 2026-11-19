@@ -1,0 +1,126 @@
+/* Assistentes virtuais Boi Premium — Rafael (açougue) e Kelly (Área do Empreendedor) */
+.assist{--a-bg:#0c0a08;--a-ink:#f6eedc;--a-muted:#cdbfa6;--a-gold:#d9b46a;--a-gold2:#efd18c;--a-card:#17130e;--a-line:#3a2f20;
+  background:radial-gradient(120% 90% at 85% 10%,#2a1f12 0%,#0c0a08 55%);color:var(--a-ink);border-bottom:1px solid #8d6f35;font-family:Arial,system-ui,sans-serif}
+.assist *{box-sizing:border-box}
+.assist .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.assist-wrap{max-width:1240px;margin:auto;padding:44px 5% 48px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);grid-template-areas:"copy avatar" "chat avatar" "result avatar";column-gap:44px;align-items:start}
+.assist-copy{grid-area:copy}.assist-chat{grid-area:chat}.assist-result{grid-area:result}
+.assist-avatar{grid-area:avatar;position:sticky;top:16px;margin:0;align-self:start}
+.assist-head{display:flex;gap:16px;align-items:center}
+.assist-logo{width:112px;height:auto;display:block;border-radius:6px;flex-shrink:0}
+.assist .eyebrow{display:block;font-size:11px;letter-spacing:2.4px;font-weight:bold;text-transform:uppercase;color:var(--a-gold)}
+.assist h2{font:clamp(30px,3.4vw,46px)/1.1 Georgia,serif;margin:8px 0 0;color:#fff8e8}
+.assist-sub{font-size:17px;line-height:1.6;color:var(--a-muted);margin:16px 0 18px;max-width:520px}
+/* avatar */
+.assist-avatar .foto{position:relative;display:block;border-radius:14px;overflow:hidden;background:radial-gradient(70% 60% at 50% 40%,#3b2b18 0%,#120e0a 70%)}
+.assist-avatar img{display:block;width:100%;height:auto;transform-origin:50% 90%;transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.assist-avatar figcaption{margin-top:10px;font-size:14px;color:var(--a-muted);text-align:center}
+.assist-avatar figcaption b{color:#fff3d6}
+.assist-avatar .selo{position:absolute;left:12px;top:12px;font-size:11px;font-weight:bold;letter-spacing:.6px;background:#0c0a08d9;border:1px solid var(--a-gold);color:var(--a-gold2);border-radius:20px;padding:6px 10px}
+.assist-avatar .foto:after{content:'';position:absolute;inset:0;border-radius:14px;box-shadow:inset 0 0 0 2px transparent;transition:box-shadow .3s}
+.assist-avatar.falando .foto:after{box-shadow:inset 0 0 0 3px var(--a-gold);animation:a-pulso 1.2s ease-in-out infinite}
+@keyframes a-pulso{50%{box-shadow:inset 0 0 0 3px #d9b46a55}}
+/* gestos: Rafael se inclina e aponta para a seleção; Kelly cumprimenta */
+.assist--rafael .assist-avatar.aponta img{transform:translateX(-10px) rotate(-2.2deg)}
+.assist--kelly .assist-avatar.acena img{animation:a-acena 1.6s ease-in-out 1}
+@keyframes a-acena{20%{transform:rotate(-2deg) translateY(-3px)}45%{transform:rotate(1.6deg)}70%{transform:rotate(-1deg)}}
+/* chat */
+.chat-log{list-style:none;margin:0;padding:4px 2px;display:flex;flex-direction:column;gap:10px;max-height:300px;overflow:auto}
+.msg{max-width:88%;padding:12px 15px;border-radius:14px;font-size:16px;line-height:1.5}
+.msg-bot{background:var(--a-card);border:1px solid var(--a-line);border-top-left-radius:4px;align-self:flex-start}
+.msg-cli{background:#d9b46a;color:#1e160b;border-top-right-radius:4px;align-self:flex-end;font-weight:bold}
+.chat-sug{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 10px}
+.chat-sug button,.chat-voz{border:1px solid #6b5631;background:#1b160f;color:#f1dcae;border-radius:30px;padding:10px 14px;font-size:14px;min-height:44px;cursor:pointer}
+.chat-sug button:hover,.chat-voz:hover{background:#2a2216}
+.chat-form{display:flex;gap:8px}
+.chat-form input{flex:1;min-width:0;font-size:16px;padding:13px 14px;border-radius:10px;border:1px solid #6b5631;background:#fffaf0;color:#1e160b}
+.chat-mic{width:52px;min-height:50px;border-radius:10px;border:1px solid var(--a-gold);background:#1b160f;color:var(--a-gold2);display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0}
+.chat-mic.ouvindo{background:#b8322a;border-color:#ff9f8f;color:#fff;animation:a-pulso2 1s infinite}
+@keyframes a-pulso2{50%{box-shadow:0 0 0 6px #b8322a44}}
+.chat-send{border:0;border-radius:10px;padding:0 18px;min-height:50px;font-weight:bold;font-size:15px;background:linear-gradient(110deg,#b98d3b,#efd18c);color:#21190d;cursor:pointer;flex-shrink:0}
+.chat-bar{margin-top:10px}
+.chat-modo{font-size:12px;line-height:1.5;color:#a99b80;margin:10px 0 0}
+.assist button:focus-visible,.assist input:focus-visible,.assist select:focus-visible,.assist a:focus-visible{outline:3px solid #f2c46b;outline-offset:3px}
+/* resultado (sugestão / cotação) */
+.assist-result{margin-top:22px;background:#fffaf0;color:#2a2117;border-radius:14px;padding:18px;border:1px solid #d9c49a}
+.assist-result h3{font:24px Georgia,serif;margin:0 0 4px;color:#3a2516}
+.res-lead{font-size:14px;color:#6c604f;margin:0 0 14px;line-height:1.5}
+.res-foto{position:relative;margin:0 0 16px;border-radius:12px;overflow:hidden;background:#1a140e}
+.res-foto img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;animation:a-zoom 7s ease-out forwards}
+@keyframes a-zoom{from{transform:scale(1)}to{transform:scale(1.09)}}
+.res-foto figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;background:linear-gradient(0deg,#000c,transparent);color:#fff;display:flex;justify-content:space-between;align-items:flex-end;gap:10px;flex-wrap:wrap}
+.res-foto figcaption b{font:22px Georgia,serif;display:block}
+.res-foto figcaption small{font-size:12px;color:#eadbc0}
+.res-foto .res-qtd{font-size:15px;font-weight:bold;color:#ffe3a6}
+.btn-a{border:0;border-radius:9px;padding:13px 16px;min-height:48px;font-weight:bold;font-size:15px;cursor:pointer;background:#852c22;color:#fff}
+.btn-a:hover{background:#6a2219}.btn-a[disabled]{opacity:.55;cursor:default}
+.btn-a.ouro{background:linear-gradient(110deg,#b98d3b,#efd18c);color:#21190d}
+.btn-a.verde{background:#147942}.btn-a.verde:hover{background:#106335}
+.btn-a.linha{background:transparent;color:#3a2516;border:1px solid #b9a77f}
+.res-pessoas{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 12px;font-size:15px}
+.res-pessoas label{font-weight:bold}
+.stepper{display:inline-flex;align-items:center;border:1px solid #c9b78f;border-radius:9px;overflow:hidden;background:#fff}
+.stepper button{width:44px;height:44px;border:0;background:#f3ead7;font-size:20px;cursor:pointer;color:#3a2516}
+.stepper input{width:64px;height:44px;border:0;text-align:center;font-size:16px;font-weight:bold;color:#2a2117;background:#fff}
+.res-linhas{list-style:none;margin:0;padding:0;border-top:1px solid #e7dbc2}
+.res-linha{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;padding:12px 0;border-bottom:1px solid #e7dbc2;align-items:center}
+.res-nome{font-weight:bold;font-size:16px}
+.res-nome small{display:block;font-weight:normal;font-size:12px;color:#7a6d5a;margin-top:3px}
+.res-sub{font-weight:bold;text-align:right;white-space:nowrap;font-size:16px}
+.res-sub.pend{font-weight:normal;font-size:13px;color:#8a5a12;white-space:normal;max-width:130px}
+.res-ctrl{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:14px}
+.res-ctrl input{width:92px;font-size:16px;padding:9px;border:1px solid #c9b78f;border-radius:8px}
+.res-ctrl select{font-size:15px;padding:9px;border:1px solid #c9b78f;border-radius:8px;background:#fff;max-width:100%}
+.res-ctrl .x{border:1px solid #c9b78f;background:#fff;border-radius:8px;min-width:44px;min-height:40px;cursor:pointer}
+.tag-fora{display:inline-block;font-size:11px;background:#efe3c8;color:#6b4a14;border-radius:20px;padding:3px 8px;margin-left:6px;font-weight:bold}
+.tag-aviso{display:inline-block;font-size:11px;background:#fde5d6;color:#8a2f12;border-radius:20px;padding:3px 8px;margin-top:4px;font-weight:bold}
+.res-total{margin:14px 0 4px;font-size:15px;line-height:1.7}
+.res-total strong{font:26px Georgia,serif;color:#852c22}
+.res-saldo{font-size:14px;padding:10px 12px;border-radius:9px;margin:8px 0;background:#eef5e9;color:#1d5b2f}
+.res-saldo.estourou{background:#fde9e4;color:#8a2a12}
+.res-acoes{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.res-acoes .btn-a{flex:1 1 200px}
+.res-nota{font-size:12px;color:#7a6d5a;line-height:1.6;margin:12px 0 0}
+.res-revisao{margin-top:14px;border:2px solid #147942;border-radius:12px;padding:14px;background:#f4fbf3}
+.res-revisao h4{margin:0 0 8px;font-size:16px}
+.res-revisao pre{white-space:pre-wrap;font:14px/1.55 Arial,sans-serif;background:#fff;border:1px solid #cfe3cb;border-radius:8px;padding:12px;margin:0 0 12px;max-height:260px;overflow:auto}
+.res-data{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 12px;font-size:15px}
+.res-data input{font-size:16px;padding:9px;border:1px solid #c9b78f;border-radius:8px}
+/* Kelly: Área do Empreendedor */
+.assist--kelly{border-radius:0}
+.assist--kelly .assist-wrap{padding-top:36px}
+/* celular: seleção abaixo do avatar, controles acessíveis */
+@media (max-width:860px){
+  .assist-wrap{grid-template-columns:1fr;grid-template-areas:"copy" "avatar" "chat" "result";padding:26px 5% 32px}
+  .assist-avatar{position:relative;top:0;margin:4px auto 14px;width:min(100%,420px)}
+  .assist-avatar img{max-height:44vh;width:auto;max-width:100%;margin:auto}
+  .assist-logo{width:84px}
+  .assist h2{font-size:30px}
+  .assist-sub{font-size:16px;margin:12px 0 4px}
+  .chat-log{max-height:240px}
+  .assist--rafael .assist-avatar.aponta img{transform:translateY(4px) rotate(-1.6deg)}
+  .assist-result{padding:14px}
+  .res-acoes .btn-a{flex-basis:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  .assist-avatar img,.res-foto img{animation:none!important;transition:none!important;transform:none!important}
+  .assist-avatar.falando .foto:after,.chat-mic.ouvindo{animation:none}
+}
+/* ajustes: nada pode passar da largura da tela; legenda da foto abaixo da carne */
+.assist-wrap>*{min-width:0}
+.assist h2,.assist-sub,.msg{overflow-wrap:anywhere}
+.res-foto img{object-position:25% 90%;transform-origin:25% 85%}
+.res-foto figcaption{position:static;background:#1a140e;padding:12px 14px}
+.res-sub.pend{max-width:110px}
+.res-foto img{max-height:360px}
+.assist-result .chat-sug .btn-a{min-height:44px;padding:10px 14px;font-size:14px}
+/* blindagem contra estilos gerais de botão/campo das páginas existentes */
+.assist .chat-mic{padding:0;width:52px}
+.assist .chat-mic svg{width:22px;height:22px;flex-shrink:0}
+.assist .chat-form input{width:auto}
+.assist .res-ctrl input{width:92px}
+.assist .stepper input{width:64px;padding:0}
+.assist .res-ctrl .x{color:#3a2516;padding:0;font-size:22px;line-height:1}
+.assist .stepper button{padding:0;color:#3a2516;border-radius:0}
+.assist .chat-sug button{font-weight:normal}
+.assist .res-data input{width:auto}
