@@ -192,10 +192,8 @@
     } else if (a === 'revisar') {
       var box = d.getElementById('rf-revisao');
       box.innerHTML = '<div class="res-revisao" tabindex="-1"><h4>Revise a mensagem antes de abrir o WhatsApp</h4><pre>' + esc(mensagemWhats(ultimo)) + '</pre>' +
-        '<div class="res-acoes"><button type="button" class="btn-a verde" data-acao="abrir-whats">Abrir no WhatsApp ↗</button><button type="button" class="btn-a linha" data-acao="fechar-rev">Voltar e ajustar</button></div></div>';
+        '<div class="res-acoes"><a class="btn-a verde" style="text-align:center;text-decoration:none" data-acao="abrir-whats" target="_blank" rel="noopener noreferrer" href="https://wa.me/' + WHATS + '?text=' + encodeURIComponent(mensagemWhats(ultimo)) + '">Abrir no WhatsApp ↗</a><button type="button" class="btn-a linha" data-acao="fechar-rev">Voltar e ajustar</button></div></div>';
       box.firstChild.focus();
-    } else if (a === 'abrir-whats') {
-      w.open('https://wa.me/' + WHATS + '?text=' + encodeURIComponent(mensagemWhats(ultimo)), '_blank', 'noopener,noreferrer');
     } else if (a === 'fechar-rev') {
       d.getElementById('rf-revisao').innerHTML = '';
     }

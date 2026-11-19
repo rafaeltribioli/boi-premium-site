@@ -120,10 +120,8 @@
     } else if (b.dataset.acao === 'revisar') {
       var box = d.getElementById('kl-revisao');
       box.innerHTML = '<div class="res-revisao" tabindex="-1"><h4>Revise a mensagem antes de abrir o WhatsApp</h4><pre>' + esc(mensagem()) + '</pre>' +
-        '<div class="res-acoes"><button type="button" class="btn-a verde" data-acao="abrir">Abrir no WhatsApp ↗</button><button type="button" class="btn-a linha" data-acao="fechar">Voltar e ajustar</button></div></div>';
+        '<div class="res-acoes"><a class="btn-a verde" style="text-align:center;text-decoration:none" data-acao="abrir" target="_blank" rel="noopener noreferrer" href="https://wa.me/' + WHATS + '?text=' + encodeURIComponent(mensagem()) + '">Abrir no WhatsApp ↗</a><button type="button" class="btn-a linha" data-acao="fechar">Voltar e ajustar</button></div></div>';
       box.firstChild.focus();
-    } else if (b.dataset.acao === 'abrir') {
-      w.open('https://wa.me/' + WHATS + '?text=' + encodeURIComponent(mensagem()), '_blank', 'noopener,noreferrer');
     } else if (b.dataset.acao === 'fechar') {
       d.getElementById('kl-revisao').innerHTML = '';
     }
